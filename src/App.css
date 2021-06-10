@@ -1,0 +1,33 @@
+.App {
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 200px;  
+  gap: 0px 0px;
+}
+
+.grid-container div {
+  padding-right: 5px;
+}
+
+.column {
+  padding: 5px;
+}
+
+.column.right {
+  display: flex;
+  align-items: center;
+}
+
+.custom-date-picker {
+  font-size: large;
+  margin: 5px;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1)  ;
+  border-radius: 5px;
+  line-height: 1.5;
+}
